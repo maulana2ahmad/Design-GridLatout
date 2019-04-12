@@ -5,6 +5,10 @@ GridLayout xml
 ![Screen Shot 2019-03-12 at 22 24 30](https://user-images.githubusercontent.com/43386555/54215186-17aa1700-451a-11e9-91aa-e744a47ada52.png)
 
 ### 1. Source XMl
+        <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
@@ -92,4 +96,6 @@ GridLayout xml
             app:layout_gravity="fill"
             app:layout_row="3"
             app:layout_rowWeight="1" />
+    </android.support.v7.widget.GridLayout>
+</android.support.constraint.ConstraintLayout>
 
